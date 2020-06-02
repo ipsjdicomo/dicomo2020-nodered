@@ -1,0 +1,9 @@
+version: '2'
+services:
+  nodered:
+    image: nodered/node-red:1.0.6
+    ports: 
+     - "1880:1880"
+    volumes:
+     - ./data:/data
+
