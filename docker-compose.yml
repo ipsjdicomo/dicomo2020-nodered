@@ -6,4 +6,5 @@ services:
      - "1880:1880"
     volumes:
      - ./data:/data
+    restart: always
 
