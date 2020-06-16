@@ -609,6 +609,24 @@
      "file": "/data/node_modules/node-red-dashboard/nodes/ui_spacer.js"
     }
    }
+  },
+  "node-red-contrib-auth": {
+   "name": "node-red-contrib-auth",
+   "version": "0.1.7",
+   "local": false,
+   "nodes": {
+    "JsonWebToken": {
+     "name": "JsonWebToken",
+     "types": [
+      "JsonWebToken",
+      "JsonWebToken_config"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-auth",
+     "file": "/data/node_modules/node-red-contrib-auth/jsonWebToken.js"
+    }
+   }
   }
  },
  "_credentialSecret": "34c99a9fdc0776f3a3520711c832f63f6495e06a9784cf9af0723cad0c893da0",
