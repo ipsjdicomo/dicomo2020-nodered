@@ -6,5 +6,7 @@ services:
      - "1880:1880"
     volumes:
      - ./data:/data
+    environment:
+      TZ: Asia/Tokyo
     restart: always
 

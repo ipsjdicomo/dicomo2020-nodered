@@ -613,7 +613,7 @@
   "node-red-contrib-auth": {
    "name": "node-red-contrib-auth",
    "version": "0.1.7",
-   "local": false,
+   "local": true,
    "nodes": {
     "JsonWebToken": {
      "name": "JsonWebToken",
@@ -653,7 +653,8 @@
      "view-node-show-label": true,
      "view-show-tips": true
     }
-   }
+   },
+   "menu-menu-item-sidebar": false
   }
  }
 }
